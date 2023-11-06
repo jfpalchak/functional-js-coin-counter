@@ -26,8 +26,9 @@ Use recursion.
 
 function SampleInputFunc (1.41) {
   1. divide 1.41 by .25, result = 5.64
-  2. add 5 to output array -- this is the number of quarters
-  3. perform 1.41 % .25 operation, result = .16 
+  2. --- Joey's brilliant idea to use Math.floor --- 
+  2. add 5 to output array -- this is the number of quarters //THIS IS RESULT A
+  3. perform 1.41 % .25 operation, result = .16  //THIS IS RESULT B
   4. SampleInputFunc(.16)
 
   let divisor = .10       
