@@ -1,38 +1,52 @@
-# //Project Name//
+# Coin Counter
 
-#### By Richard Barbour II
+#### By Joey Palchak, Jon Cheng, Richard Barbour II
 
-#### //Summary of project in one or two sentences.// 
-
+#### Solving the Coin Counter problem in JavaScript, with a focus on functional programming and unit testing.
 
 ## Technologies Used
 
-* HTML
-* CSS
-* JS
+* JavaScript
 * Node.js (16.13.1)
 * npm (8.1.2)
-
-
+* Jest
 
 ## Description
 
-//Short description paragraph//
+Coin Counter is a purely JavaScript application with a focus on functional programming, and the concept of recursion in particular. 
 
 ## Setup/Installation Requirements
 
-1. Navigate to //ADD URL OF REPO// in an internet browser.
-2. Click on the green “<> Code” on the far right-hand side of the page's main column.
-3. On the “Local” tab of the mini-window that opens underneath the “<>Code” button, copy the HTTPS link in the gray bar to your clipboard.
-4. In GitBash (or a terminal shell of your choice), navigate to the directory where you wish to download the project and enter the following prompt (replacing the italicized word with the appropriate link): git clone *url-of-the-repository-copied-in-the-previous-step*
-5. Your chosen directory will now contain a folder titled //ADD NAME OF REPO//.
-6. Navigate into the folder. This is the project's root directory.  
-7. After ensuring you have the JavaScript runtime environment Node.js installed on your computer, run the following command from your terminal in the project's root directory: npm install  
-8. Node.js' (16.13.1) packet manager, (8.1.2) npm, will fetch the packages listed in the project's package.json file and any dependencies (including webpack, ESLint and Jest) and install all of the source code in a "node_modules" directory which it creates in the project's root directory. The "scripts" key in the package.json file contains the various actions you can perform with the project's files.
-9. To build the project in development mode with webpack, run the following command from your terminal in the project's root directory (and webpack will create a new directory called "dist" in your root directory and populate it with a JS file called "bundle.js" and HTML file called "index.html"): npm run build  
-10. To build project and then open the webpack development server, which will launch a browser and live re-bundle and reload the project when changes are made to the code in the "src" directory, run the following command from your terminal in the project's root directory: npm run start  
-11. To lint all JS files in the "src" directory using ESLint, run the following command from your terminal in the project's root directory: npm run lint  
-12. To run tests on the JS files in the "\_\_tests\_\_" directory using Jest, run the following command from your terminal in the project's root directory: npm run test
+1. Copy the **[URL](https://github.com/jfpalchak/functional-js-coin-counter.git)** provided for this repository.
+2. Open Terminal.
+3. Change your working directory to where you'd like to create the cloned directory.
+4. In your terminal, type `git clone` and use the copied URL from Step 1. Or, copy the following git command:
+   
+```bash
+$ git clone https://github.com/jfpalchak/functional-js-coin-counter.git
+```
+
+5. Navigate to the root of the newly cloned directory.
+6. In your terminal, assuming Node and npm are installed, type the following command to install the project's dependencies found in `package.json`:
+   
+```bash
+$ npm install
+```
+
+7. With the dependencies installed, type the following line in your terminal to build the application using webpack:
+   
+```bash
+$ npm run build
+```
+  * Additionally, if you wish to:
+    1. Lint the JavaScript source code, you can do so by running the following command in the application's root directory: 
+    > `$ npm run lint`
+  
+8. And finally, to run the all tests covering the JavaScript with Jest, you can do so by running the following command in the application's root directory: 
+   
+```bash
+$ npm run test
+```
 
 ## Known Bugs
 
@@ -42,7 +56,7 @@ No known bugs.
 
 MIT License
 
-Copyright (c) 2023 Richard Barbour II
+Copyright (c) 2023 Joey Palchak, Jon Cheng, Richard Barbour II
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
